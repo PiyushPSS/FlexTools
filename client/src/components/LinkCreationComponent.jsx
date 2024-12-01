@@ -83,12 +83,12 @@ const LinkCreationComponent = () => {
                                 alert('This feature is not available yet. 😅');
                             }}
                         >
-                            Sign up with <img src='/src/assets/google_icon.png' width={30} className='ml-1' />
+                            Sign up with <img src='/google_icon.png' width={30} className='ml-1' />
                         </button>
                     </div>
                 </div>
                 <br />
-                <img src='/src/assets/loading.gif' width={60} className={(showLoading ? '' : 'hidden') + ' mx-auto mt-7'} />
+                <img src='/loading.gif' width={60} className={(showLoading ? '' : 'hidden') + ' mx-auto mt-7'} />
                 <div 
                     className={(showClipboard ? '' : 'hidden ') + 'w-2/5 h-max py-3 text-left bg-green-300 mx-auto mt-5 mb-10 flex justify-between px-4 rounded-lg border border-black border-dashed cursor-pointer'}
                     onClick={() => {
